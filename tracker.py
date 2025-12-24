@@ -68,7 +68,7 @@ def start_tracker():
             if (current_time - starting_time) >= 60:
                 save_data(data)
                 starting_time = current_time
-                print("success")
+                
             
             if todays_date != date.today():
                 save_data(data)
